@@ -19,7 +19,7 @@ export const AppReducer = (state, action) => {
                     if(currentExp.name === action.payload.name) {
                         currentExp.cost = action.payload.cost + currentExp.cost;
                     }
-                    return currentExp
+                    return currentExp 
                 });
                 return {
                     ...state,
